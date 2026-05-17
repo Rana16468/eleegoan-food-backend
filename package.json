@@ -1,11 +1,12 @@
 {
   "name": "order-tracking-backend",
   "version": "1.0.0",
+  "type": "module",
   "description": "Real-time order tracking backend - Learn Socket.IO",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node init && node server.js",
+    "dev": "node init && nodemon server.js"
   },
   "keywords": [
     "socket.io",
